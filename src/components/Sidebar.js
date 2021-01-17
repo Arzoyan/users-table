@@ -21,7 +21,7 @@ class Sidebar extends React.Component {
     super(props)
     this.state = {
       collapsed: false,
-      selectedPage: "1"
+      selectedPage: "/"
     };
 
   }

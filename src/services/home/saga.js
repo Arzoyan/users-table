@@ -20,7 +20,6 @@ function* getUser({ payload }) {
 
     } catch (e) {
         yield put(homeAction.failMessage())
-        //   yield put({type: "USER_FETCH_FAILED", message: e.message});
     }
 }
 
@@ -59,9 +58,8 @@ function* deleteUser({ payload }) {
     try {
         yield call(UsersApi.deleateUser, payload);
         yield put(homeAction.deleteUserSucess(payload));
-        yield put(homeAction.successMessage())
+        yield put(homeAction.successMessage());
     } catch (e) {
-        yield put(homeAction.failMessage())
     }
 }
 
