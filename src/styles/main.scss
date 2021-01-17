@@ -1,0 +1,108 @@
+.main-header {
+    color: white;
+    height: 66px;
+    text-align: center;
+}
+
+.main-sidebar {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.app-header {
+    background-color: white;
+    display: flex;
+    justify-content: flex-end;
+    .notification-bur {
+        margin-right: 30px;
+        width: 100px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .avatar {
+        margin-right: 15px;
+    }
+}
+
+.swich-checked {
+    background-color: $green !important;
+    &.ant-switch-checked {
+        background-color: $red !important;
+    }
+}
+
+.side-bar-position {
+    z-index: 1;
+    .ant-layout-sider-children {
+        position: fixed;
+    }
+}
+
+.project-button {
+    width: 114px;
+    height: 36px;
+    border-radius: 4px;
+    background-color: $blue;
+    text-align: center;
+    margin-left: 20px;
+    font-size: 14px;
+    &:hover {
+        background-color: $hoverBg;
+        border: 1px solid $hoverBg;
+    }
+}
+
+.title-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    .title {
+        white-space: nowrap;
+        font-weight: 400px;
+        font-size: 18px;
+    }
+    .line {
+        width: 70%;
+        height: 2px;
+        background-color: gray;
+    }
+}
+
+.table-action {
+    display: flex;
+    justify-content: space-around;
+    width: 100px;
+    align-items: center;
+}
+
+.user-status {
+    .ant-badge-dot {
+        top: 50px;
+        left: 26px;
+    }
+}
+
+.form-wrapper {
+    padding-top: 40px;
+    height: 611px;
+    background: #ffffff;
+    border: 1px solid #e9e9e9;
+    box-sizing: border-box;
+}
+
+.user-form {
+    .title-wrapper {
+        .line {
+            width: 85%;
+        }
+    }
+}

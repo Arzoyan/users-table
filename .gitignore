@@ -1,0 +1,12 @@
+node_modules/
+.idea/
+dist/
+production/
+
+nohup.out
+npm-debug.log
+
+.DS_Store
+.DS_Store?
+# dotenv environment variables file
+.env
