@@ -9,4 +9,6 @@ npm-debug.log
 .DS_Store
 .DS_Store?
 # dotenv environment variables file
-.env
+
+debug.log
+package-lock.json
